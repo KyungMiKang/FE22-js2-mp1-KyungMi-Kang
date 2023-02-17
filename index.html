@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src='js/01.js' defer></script>
+
+    <title>HELL-GAME</title>
+</head>
+
+<body>
+
+    <section id='scoreTable' >
+    <div id='table'>
+        <table class='highScoreTable'>
+            <tr>
+                <th>rank</th>
+                <th>name</th>
+                <th>score</th>
+            </tr>
+        </table>
+    </div>
+    </section>
+
+    <section>
+    <form id='form'>
+        <input type='text' name='user' id='input-text' placeholder='Your Name'>
+        <button  id='submit-button' >SUBMIT</button>
+    </form>
+    
+    <div id="mess">
+        <h1 id='mess-text'>WELCOME!</h1>
+    </div>
+
+    <div class='buttons'>
+        <button id='scissors' class='red'>scissors</button>
+        <button id='rock' class='blue'>rock</button>
+        <button id='paper' class='green'>paper</button>
+    </div>
+
+    <div class="container">
+        <div class='computerwin'>
+            <h2>Computer Choice: <sapn class='computer-choice'></sapn>
+            </h2>
+        </div>
+
+        <div class='userWin'>
+            <h2>Your Choice : <span class='your-choice'></span> </h2>
+        </div>
+    </div>
+
+    <div id='userScore'>
+        <h2 id='userScore'>User score : </h2>
+    </div>
+
+    <div id ='result'>
+    <h2 class='result-mess'>result</h2>
+    </div>
+
+    </section>
+</body>
+
+</html>
+
